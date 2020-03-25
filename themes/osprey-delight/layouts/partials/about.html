@@ -10,9 +10,19 @@
       </div>
       <div class="row center-xs">
         <div class="col-xs-12 middle-xs">
-          {{ with $.Site.GetPage "page" "about" -}}
-          {{ .Content }}
-          {{- end }}
+          <div style="font-size:2em">
+            {{ with $.Site.GetPage "page" "about" -}}
+            {{ .Description }}
+
+            {{- end }}
+          </div>
+
+          <div style="text-align:justify">
+              {{ with $.Site.GetPage "page" "about" -}}
+              {{ .Content }}
+
+              {{- end }}
+          </div>
         </div>
       </div>
     </div>

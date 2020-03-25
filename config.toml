@@ -78,11 +78,11 @@ enableEmoji = true
 [[menu.main]]
   name = "About"
   url  = "/#about"
+  weight = 2
+[[menu.main]]
+  name = "Work groups"
+  url  = "/#workgroups"
   weight = 1
-#[[menu.main]]
-#  name = "Work"
-#  url  = "/#work"
-#  weight = 2
 [[menu.main]]
   name = "Contact"
   url  = "/#contact"
@@ -91,5 +91,5 @@ enableEmoji = true
   # Use icon here to neatly back reference an external site/blog/whatever:
   pre = "<i class='icon icon-twitter'></i>"
   name = ""
-  url  = "https://pyotek.dev"
+  url  = "http://twitter.com/cv19res"
   weight = 4

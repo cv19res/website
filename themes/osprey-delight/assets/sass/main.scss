@@ -276,7 +276,7 @@ h3 {
 
 a > .icon {
   transition: color .2s ease-out;
-  
+
   &:not(.icon-menu):hover, &:not(.icon-menu):focus {
     color: $accent;
   }
@@ -363,7 +363,7 @@ input, button, select {
       cursor: pointer;
     }
   }
-  
+
   .icon {
     color: $white
   }

@@ -4,14 +4,15 @@
   <body>
     {{ partial "body-top" . }}
     <main>
-
-      <!-- About -->
-      {{ partial "about.html" . }}
-
       <!-- Gallery -->
       {{ if not (eq (len (where .Site.RegularPages "Section" "gallery")) 0) }}
         {{ partial "gallery.html" . }}
       {{ end }}
+      
+      <!-- About -->
+      {{ partial "about.html" . }}
+
+
 
       <!-- Blog -->
       <!-- {{ if not (eq (len (where .Site.RegularPages "Section" "blog")) 0) }}
