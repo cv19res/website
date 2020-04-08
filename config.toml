@@ -69,27 +69,27 @@ enableEmoji = true
   # structuredDataFromGithub = "USERNAME"
 
 ## Configure contact form:
-[Params.Contact]
+#[Params.Contact]
   # [str[]] i18n keys used to display in an additional select box.
   #   Comment out if you want to disable it.
-  select = ["generic", "coop", "business", "project"]
+#  select = ["generic", "coop", "business", "project"]
 
 
-[[menu.main]]
-  name = "About"
-  url  = "/#about"
-  weight = 2
-[[menu.main]]
-  name = "Work groups"
-  url  = "/#workgroups"
-  weight = 1
-[[menu.main]]
-  name = "Contact"
-  url  = "/#contact"
-  weight = 3
-[[menu.main]]
+#[[menu.main]]
+#  name = "About"
+#  url  = "/#about"
+#  weight = 2
+#[[menu.main]]
+#  name = "Work groups"
+#  url  = "/#workgroups"
+#  weight = 1
+#[[menu.main]]
+#  name = "Contact"
+#  url  = "/#contact"
+#  weight = 3
+#[[menu.main]]
   # Use icon here to neatly back reference an external site/blog/whatever:
-  pre = "<i class='icon icon-twitter'></i>"
-  name = ""
-  url  = "http://twitter.com/cv19res"
-  weight = 4
+#  pre = "<i class='icon icon-twitter'></i>"
+#  name = ""
+#  url  = "http://twitter.com/cv19res"
+#  weight = 4
